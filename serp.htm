@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SERP</title>
+  <meta name="description" value="The search engine that doesn't track you. Learn More.">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/colors.css">
+  <link rel="stylesheet" type="text/css" href="./css/modal.css">
+  <link rel="stylesheet" type="text/css" href="./css/serp.css?1">
+  <link rel="icon" type="image/png" href="./img/se.png">
+  <meta name="author" value="vanGato">
+</head>
+<body>
+  <div class="serp">
+    <div class="serp__layout">
+      <div class="serp__header">
+        <div class="serp__search">
+          <form class="serp__form" action="serp.htm" methode="GET">
+            <div>
+              <input name="q" type="search" value="labore et dolore"
+                     class="serp__query" 
+                     maxlength="512"
+                     autocomplete="off"
+                     title="Search"
+                     aria-label="Search"
+                     dir="ltr"
+                     spellcheck="false"
+                     autofocus="autofocus"
+              >
+            </div>
+            <button class="serp__button" aria-label="Search" type="submit">
+              <div class="serp__ico"></div>
+            </button>
+          </form>
+        </div>
+        <a class="serp__logo" href="index.htm"></a>
+        <ul class="serp__nav">
+          <li class="serp__active"><a href="index.htm">Web</a></li>
+          <li><a href="index.htm">Images</a></li>
+          <li><a href="index.htm">Videos</a></li>
+          <li><a href="index.htm">News</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="serp__body">
+      <div class="serp__main serp__results">
+        <div class="serp__web">
+          <span class="serp__label">Ads</span>
+          <div class="serp__result">
+            <a href="https://example.de/" target="_blank">
+              <div class="serp__title">Example</div>
+              <span class="serp__ad">Ad</span> 
+              <span class="serp__url">https://example.de</span>
+            </a><br>
+            <span class="serp__description">Lorem Ipsum Dolore</span>
+          </div>
+        </div>
+        <div class="serp__web">
+          <span class="serp__label">Web Results</span>
+          <div class="serp__result">
+            <a href="https://example.de/" target="_blank">
+              <div class="serp__title">Web</div>
+              <div class="serp__url">https://example.de/</div>
+            </a>
+            <span class="serp__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <span class="serp__match">labore et dolore</span> magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </span>
+          </div>
+          <div class="serp__result">
+            <a href="https://example.de/" target="_blank">
+              <div class="serp__title">Web</div>
+              <div class="serp__url">https://example.de/</div>
+            </a>
+            <span class="serp__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <span class="serp__match">labore et dolore</span> magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </span>
+          </div>
+          <div class="serp__result">
+            <a href="https://example.de/" target="_blank">
+              <div class="serp__title">Web</div>
+              <div class="serp__url">https://example.de/</div>
+            </a>
+            <span class="serp__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <span class="serp__match">labore et dolore</span> magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </span>
+          </div>
+          <div class="serp__result">
+            <a class="serp__video" href="https://example.de/" target="_blank">
+              <div class="serp__thumbnail serp__zoom">
+                <!--BLACK data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs-->
+                <img width="116" height="87" src="https://i.ytimg.com/vi/dBxOYE2j55U/default.jpg">
+                <span class="serp__duration">▶ 8:88</span>
+              </div>
+            </a>
+            <a href="https://example.de/" target="_blank">
+            <span class="serp__title">Video</span><br>
+            <span class="serp__url">https://example.de</span></a><br>
+            <span class="serp__description serp__hide-on-mobile">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <span class="serp__match">labore et dolore</span> magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </span>
+          </div>
+          <div class="serp__result">
+            <a href="https://example.de/" target="_blank">
+            <span class="serp__title">News</span><br>
+            <span class="serp__url">Tagesschau, 2019-03-27</span></a><br>
+            <span class="serp__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut <span class="serp__match">labore et dolore</span> magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </span>
+          </div>
+        </div>
+        <div class="serp__no-results">
+          <p><strong>No search results were found for &raquo;labore et dolore&laquo;</strong></p>
+          <p>Suggestions:</p>
+          <ul>
+            <li>Check that all words are spelled correctly.</li>
+            <li>Try different search terms.</li>
+            <li>Try a more general search.</li>
+            <li>Try fewer search terms.</li>
+          </ul>
+        </div>
+        <div class="serp__pagination">
+          <ul>
+            <li><a class="serp__disabled"></a></li>
+            <li class="serp__pagination-active"><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="serp__sidebar">
+        <div class="serp__sticky">
+          <div class="serp__headline">Wikipedia</div>
+          <div class="serp__wiki">
+            <h2>Web search engine</h2>
+            <p>Software system that is designed to search for information on the World Wide Web</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Wikipedia-Logo-on-Black.jpg" />
+            <p>A <b>web search engine</b> or <b>Internet search engine</b> is a software system that is designed to carry out <b>web search</b>.</p>
+            <p>
+            <small>
+              More about &raquo;Web search engine&laquo; from <a target="_blank" href="https://en.wikipedia.org/wiki/Web_search_engine">Wikipedia</a>
+            </small>
+            </p>
+          </div>
+          <div class="serp__headline">Searches related to &raquo;labore et dolore&laquo;</div>
+          <div class="serp__hint">
+            <a class="serp__related" href="##"><b>Lorem</b> <b>Ipsum</b> Dolore</a><br>
+          </div>
+          <div class="serp__hint">
+            <a class="serp__related" href="##"><b>Lorem</b> <b>Ipsum</b> Dolore</a><br>
+          </div>
+          <div class="serp__hint">
+            <a class="serp__related" href="##"><b>Lorem</b> <b>Ipsum</b> Dolore</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="serp__footer">
+      <div class="serp__bottom">
+        <ul class="serp__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#about">Privacy</a></li>
+          <li><a href="#about">Terms</a></li>
+          <li><a href="#about">Contact Us</a></li>
+        </ul>
+        <p class="serp__copyright">&copy; 2019 vanGato</p>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal" id="about" aria-hidden="true">
+    <div class="modal__dialog">
+      <div class="modal__header">
+        <h2>About</h2>
+        <a href="#" class="modal__close" aria-hidden="true">×</a>
+      </div>
+      <div class="modal__body">
+        <strong>Lorem Ipsum</strong><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="modal__footer">
+        <p>Last Update 01.01.2019</p>
+      </div>
+    </div>
+  </div>
+  <!-- /Modal -->
+</body>
+</html>
