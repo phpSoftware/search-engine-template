@@ -1,0 +1,19 @@
+/* ------- COLORS ------- */
+
+:root {
+
+  /* ALL */
+  --color:            crimson;   /* red   */
+  --background-color: white;     /* white */
+  --text-color:       black;     /* black */
+  --text-light-color: #444;      /* dark  */
+  --border-color:     silver;    /* grey  */
+
+  /* SERP only */
+  --link-color:         #2619AF; /* blau  */
+  --link-visited-color: #670199; /* lila  */
+  --url-color:          #078307; /* green */
+  --header-color:       #f9f9fb; /* grey  */
+  --ad-color:           #58a33f; /* green */
+
+}
