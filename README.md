@@ -1,7 +1,17 @@
 Responsive HTML5 Search Engine Template Boilerplate
 ===================================================
 
-A responsive search-engine frontend template - using only HTML5 and CSS (no JavaScript at all).
+A responsive search-engine frontend template - using only HTML5, CSS and a pure CSS Modal (no JavaScript at all)!
+
+
+Startpage
+---------
+![index.htm](https://raw.githubusercontent.com/vanGato/search-engine-template/master/img/screen-index.jpg)
+
+
+SERP
+----
+![serp.htm](https://raw.githubusercontent.com/vanGato/search-engine-template/master/img/screen-serp.jpg)
 
 
 You may also take a look at
@@ -16,5 +26,6 @@ You may also take a look at
 * Search engine ( Front-End ) https://codepen.io/jappe/pen/gwRQWX
 * Search Box https://codepen.io/siwicki/pen/FHkwu
 * click-to-expand search input https://tympanus.net/Tutorials/ExpandingSearchBar/
+
 
 ``Copyright 2019 vanGato``
