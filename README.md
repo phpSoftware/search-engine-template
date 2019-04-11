@@ -7,11 +7,13 @@ A responsive search-engine frontend template - using only HTML5, CSS and a pure 
 Startpage
 ---------
 ![index.htm](https://raw.githubusercontent.com/vanGato/search-engine-template/master/img/screen-index.jpg)
+
 **DEMO** https://codepen.io/vangato/details/oOZepM
 
 SERP
 ----
 ![serp.htm](https://raw.githubusercontent.com/vanGato/search-engine-template/master/img/screen-serp.jpg)
+
 **DEMO** https://codepen.io/vangato/details/LvWjxd
 
 You may also take a look at
