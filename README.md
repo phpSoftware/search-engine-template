@@ -1,3 +1,5 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e479e3eaa95144c487e4a0542af9c350)](https://www.codacy.com/app/gaffling/search-engine-template?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gaffling/search-engine-template&amp;utm_campaign=Badge_Grade)
+
 Responsive HTML5 Search Engine Template Boilerplate
 ===================================================
 
