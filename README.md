@@ -29,4 +29,4 @@ You may also take a look at
   * click-to-expand search input https://tympanus.net/Tutorials/ExpandingSearchBar/
 
 
-``Copyright 2019 vanGato``
+``Copyright 2019 [phpSoftware](https://github.com/phpSoftware/)``
